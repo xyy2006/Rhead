@@ -26,6 +26,7 @@ try( library(getopt) )		# lattice plot package
 try( library(dplyr) )		# lattice plot package
 try( library(pipeR) )		# lattice plot package
 try( library(bigmemory) )		# lattice plot package
+try( library(lineprof) )		# lattice plot package
 options(stringsAsFactors=F)
 try(registerDoMC(detectCores()) )
 options(cores=detectCores())
@@ -39,6 +40,20 @@ options(cores=detectCores())
 #  writeLines(con = )
 #}
 #
+# 0.the two profiling functions. Prefer lineprof.
+collect_Rprof <- function(text, output="profile1.out", line.profiling=TRUE){
+  Rrof(output, line.profiling = line.profiling)
+  eval(parse(text = text, keep.source=TRUE) )	
+  Rrof(NULL)
+  #---now get summary btw---#
+  summaryRprof(output,line="both")
+}
+collect_lineprof <- function(call){
+  l <- lineprof(code = call)
+  ll <- align(l)
+  arrange(ll,desc(time)) 
+}
+
 # 1.
 collect_garbage <-function(){while (gc()[2,4] != gc()[2,4] | gc()[1,4] != gc()[1,4]){}}
 # 2.
