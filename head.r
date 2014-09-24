@@ -1,4 +1,5 @@
 options(show.error.messages=FALSE)
+suppressPackageStartupMessages({  
 try(library(MASS))	# standard, no need to install
 try(library(class))	# standard, no need to install
 try(library(cluster))	
@@ -27,6 +28,7 @@ try( library(dplyr) )		# lattice plot package
 try( library(pipeR) )		# lattice plot package
 try( library(bigmemory) )		# lattice plot package
 try( library(lineprof) )		# lattice plot package
+})
 options(stringsAsFactors=F)
 try(registerDoMC(detectCores()) )
 options(cores=detectCores())
