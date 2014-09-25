@@ -46,7 +46,7 @@ try(options(cores=detectCores()))
 collect_Rprof <- function(text, output="profile1.out", line.profiling=TRUE){
   Rprof(output, line.profiling = line.profiling)
   eval(parse(text = text, keep.source=TRUE) )	
-  Rrof(NULL)
+  Rprof(NULL)
   #---now get summary btw---#
   summaryRprof(output,line="both")
 }

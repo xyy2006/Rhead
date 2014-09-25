@@ -44,7 +44,7 @@ try(options(cores=detectCores()))
 #
 # 0.the two profiling functions. Prefer lineprof.
 collect_Rprof <- function(text, output="profile1.out", line.profiling=TRUE){
-  Rrof(output, line.profiling = line.profiling)
+  Rprof(output, line.profiling = line.profiling)
   eval(parse(text = text, keep.source=TRUE) )	
   Rrof(NULL)
   #---now get summary btw---#
