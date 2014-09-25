@@ -31,7 +31,7 @@ try( library(lineprof) )		# lattice plot package
 })
 options(stringsAsFactors=F)
 try(registerDoMC(detectCores()) )
-options(cores=detectCores())
+try(options(cores=detectCores()))
 # > getOption("cores")
 # [1] 8
 
