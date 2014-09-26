@@ -1,3 +1,4 @@
+# this is the R header to be imported to enable useful packages and self-defined functions.
 options(show.error.messages=FALSE)
 suppressPackageStartupMessages({  
 try(library(MASS))	# standard, no need to install
