@@ -1,3 +1,4 @@
+# this is the R header to be imported to enable useful packages and self-defined functions.
 options(show.error.messages=FALSE)
 suppressPackageStartupMessages({  
 try(library(MASS))	# standard, no need to install
@@ -46,7 +47,7 @@ try(options(cores=detectCores()))
 collect_Rprof <- function(text, output="profile1.out", line.profiling=TRUE){
   Rprof(output, line.profiling = line.profiling)
   eval(parse(text = text, keep.source=TRUE) )	
-  Rrof(NULL)
+  Rprof(NULL)
   #---now get summary btw---#
   summaryRprof(output,line="both")
 }
