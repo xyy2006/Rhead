@@ -1,5 +1,5 @@
 # this is the R header to be imported to enable useful packages and self-defined functions.
-options(show.error.messages=FALSE)
+options(show.error.messages=TRUE)
 suppressPackageStartupMessages({  
 try(library(MASS))	# standard, no need to install
 try(library(class))	# standard, no need to install
@@ -101,24 +101,29 @@ hishow <- function(pattern) history(pattern=pattern)
 # unit is MB here.
 purge_bigOBJ <- function(big_cutoff = 100)	# list the objects in memory with corresponding size.
 {
-	all_obj_strings <- ls(pos=1)
-	a<-c()
-	for (i in 1:length(all_obj_strings)) {
-		a[[i]] <- cbind(obj = all_obj_strings[i],size = round(object.size(eval(parse(text=all_obj_strings[i])))/1024/1024,3) )
-	}
-	obj_list <- do.call(rbind,a)
-	obj_list_sorted <- obj_list[order(as.numeric(obj_list[,2]),decreasing=T),]
-	colnames(obj_list_sorted) <- c('obj','size(mb)')
-	print(obj_list_sorted,quote=F)
-	invisible(obj_list_sorted)
-	# # prompt whether to delete.
-	# anwser = readline(cat('Do you want to delete those unused (old) obj bigger than',big_cutoff,'mb? (yes or no, then press \'enter\')\n') )
-	# if (substr(anwser,1,1)=='y') {
-		
-		# for )
-		
-	# }
+    all_obj_strings <- ls(pos = 1)
+    # a <- c()
+    # for (i in 1:length(all_obj_strings)) {
+        # a[[i]] <- cbind(obj = all_obj_strings[i], size = round(object.size(eval(parse(text = all_obj_strings[i])))/1024/1024,
+            # 3))
+    # }
+	all_size = sapply(ls(pos=1),function(x)
+                 object.size(get(x)))
+                 # format(object.size(get(x)),units="b" ) )
+	# format(all_size,units="Mb")
+	report = data.frame(names(all_size),all_size,row.names=NULL)
+    colnames(report) <- c("obj", "size(mb)")
+	report = report[order(as.numeric(report[, 2]),
+        decreasing = T), ]
+	report[,2] <- round(report[,2]/1024/1024,3)
+	return(report)
+    # obj_list <- do.call(rbind, a)
+    # obj_list_sorted <- obj_list[order(as.numeric(obj_list[, 2]),
+        # decreasing = T), ]
+    # print(obj_list_sorted, quote = F)
+    # invisible(obj_list_sorted)
 }
+
 #---------------#
 # try to capitalize 1st letter of each word.
 simpleCap <- function(x) {

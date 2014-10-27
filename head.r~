@@ -42,7 +42,9 @@ try(options(cores=detectCores()))
 #  catt(...)
 #  writeLines(con = )
 #}
-#
+#---function_that_might_return_null() %||% default value------#
+`%||%` <- function(a, b) if (!is.null(a)) a else b
+
 # 0.the two profiling functions. Prefer lineprof.
 collect_Rprof <- function(text, output="profile1.out", line.profiling=TRUE){
   Rprof(output, line.profiling = line.profiling)
