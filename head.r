@@ -1,5 +1,5 @@
 # this is the R header to be imported to enable useful packages and self-defined functions.
-options(show.error.messages=TRUE)
+options(show.error.messages=FALSE)
 suppressPackageStartupMessages({  
 try(library(MASS))	# standard, no need to install
 try(library(class))	# standard, no need to install
@@ -29,8 +29,16 @@ try( library(dplyr) )		# lattice plot package
 try( library(pipeR) )		# lattice plot package
 try( library(bigmemory) )		# lattice plot package
 try( library(lineprof) )		# lattice plot package
+try( library(stringr) )		# lattice plot package
+try( library(readxl))		# lattice plot package
+try( library(bit64) )		# lattice plot package
+try( library(tidyverse) )		# lattice plot package
+try( library(lubridate) )		# lattice plot package
+try( library(profvis) )		# lattice plot package
+try( library(foreach) )		# lattice plot package
 })
 options(stringsAsFactors=F)
+options(width = 120)
 try(registerDoMC(detectCores()) )
 try(options(cores=detectCores()))
 # > getOption("cores")
@@ -221,4 +229,57 @@ function(...) {
 }
 # example:
 # Filter(or(is.character, is.factor), iris)
+
+#:---- Multiple plot function for ggplot2----
+#
+# ggplot objects can be passed in ..., or to plotlist (as a list of ggplot objects)
+# - cols:   Number of columns in layout
+# - layout: A matrix specifying the layout. If present, 'cols' is ignored.
+#
+# If the layout is something like matrix(c(1,2,3,3), nrow=2, byrow=TRUE),
+# then plot 1 will go in the upper left, 2 will go in the upper right, and
+# 3 will go all the way across the bottom.
+#
+multiplot <- function(..., plotlist=NULL, file, cols=1, layout=NULL) {
+  library(grid)
+
+  # Make a list from the ... arguments and plotlist
+  plots <- c(list(...), plotlist)
+
+  numPlots = length(plots)
+
+  # If layout is NULL, then use 'cols' to determine layout
+  if (is.null(layout)) {
+    # Make the panel
+    # ncol: Number of columns of plots
+    # nrow: Number of rows needed, calculated from # of cols
+    layout <- matrix(seq(1, cols * ceiling(numPlots/cols)),
+                     ncol = cols, nrow = ceiling(numPlots/cols))
+  }
+
+  if (numPlots==1) {
+    print(plots[[1]])
+
+  } else {
+    # Set up the page
+    grid.newpage()
+    pushViewport(viewport(layout = grid.layout(nrow(layout), ncol(layout))))
+
+    # Make each plot, in the correct location
+    for (i in 1:numPlots) {
+      # Get the i,j matrix positions of the regions that contain this subplot
+      matchidx <- as.data.frame(which(layout == i, arr.ind = TRUE))
+
+      print(plots[[i]], vp = viewport(layout.pos.row = matchidx$row,
+                                      layout.pos.col = matchidx$col))
+    }
+  }
+}
+
+#: define print function used in jupyter R env.
+print_html <- function(x) {
+      x %>% xtable %>% print(., type = 'html', print.results = FALSE)  %>% display_html(.)
+}
+
+#: restore show error msg
 options(show.error.messages=TRUE)
