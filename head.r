@@ -36,6 +36,8 @@ try( library(tidyverse) )		# lattice plot package
 try( library(lubridate) )		# lattice plot package
 try( library(profvis) )		# lattice plot package
 try( library(foreach) )		# lattice plot package
+try( library(tryCatchLog) )		# better tryCatch functions
+try( library(attempt) )		# another better tryCatch functions, can save to a tibble of error, message, warining, final, etc.
 })
 options(stringsAsFactors=F)
 options(width = 120)
