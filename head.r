@@ -39,6 +39,7 @@ try( library(foreach) )		# lattice plot package
 try( library(tryCatchLog) )		# better tryCatch functions
 try( library(attempt) )		# another better tryCatch functions, can save to a tibble of error, message, warining, final, etc.
 try( library(digest) )		# Compact hash representations of arbitrary R objects, could be useful in compare difference or ever-changed.
+try( library(purrr) )		# functional programming tookit, provide `map_xxx` functions, better than standard lapply/sapply.
 })
 options(stringsAsFactors=F)
 options(width = 120)
