@@ -25,7 +25,8 @@ try( library(geepack) )		# lattice plot package
 try( library(data.table) )		# lattice plot package
 try( library(xtable) )		# lattice plot package
 try( library(getopt) )		# lattice plot package
-try( library(dplyr) )		# lattice plot package
+try( library(dplyr) )		# dplyr package
+try( library(dtplyr) )		# data.table dplyr version  package
 try( library(pipeR) )		# lattice plot package
 try( library(bigmemory) )		# lattice plot package
 try( library(lineprof) )		# lattice plot package
