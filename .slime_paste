@@ -1,0 +1,10 @@
+#: larger sample size
+#------------ start run RF model---------------
+rf_result_30kSample <- rfsrc(formula = cost_pattern_endpoint ~ .,
+                             data = data[1:30000],
+                             #ntree = 2000,
+                             ntree = 1000,
+                             mtry = 5,
+                             importance = TRUE,
+                             tree.err = TRUE
+                             )

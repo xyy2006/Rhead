@@ -1,0 +1,1405 @@
+1.1
+applications.menu
+17
+D/home/yyang/.local/share/desktop-directories
+D/usr/local/share/desktop-directories
+D/usr/share/desktop-directories
+D/usr/share/gdm/desktop-directories
+D/var/lib/menu-xdg/desktop-directories/menu-xdg
+D/var/lib/menu-xdg/desktop-directories
+D/home/yyang/.local/share/applications
+D/usr/local/share/applications
+D/usr/share/applications/screensavers
+D/usr/share/applications
+D/usr/share/gdm/applications
+D/var/lib/menu-xdg/applications/menu-xdg
+D/var/lib/menu-xdg/applications
+D/etc/xdg/menus/applications-merged
+D/home/yyang/.config/menus/applications-merged
+F/home/yyang/.config/menus/lxde-applications.menu
+F/etc/xdg/menus/lxde-applications.menu
+
++Applications
+Applications
+Applications
+applications-other
+lxde-menu-applications.directory
+2
++Accessories
+Accessories
+Desktop accessories
+applications-accessories
+lxde-utility.directory
+2
+-xfce4-about.desktop
+About Xfce
+Information about the Xfce Desktop Environment
+help-about
+
+9
+About Xfce
+xfce4-about
+0
+8
+-xfce4-appfinder.desktop
+Application Finder
+Find and launch applications installed on your system
+gtk-find
+
+9
+Application Finder
+xfce4-appfinder
+2
+0
+-byobu.desktop
+Byobu Terminal
+Advanced Command Line and Text Window Manager
+byobu
+
+9
+Byobu Terminal
+env TERM=xterm-256color byobu
+1
+0
+-exo-file-manager.desktop
+File Manager
+Browse the file system
+system-file-manager
+
+9
+File Manager
+exo-open --launch FileManager %u
+2
+8
+-pcmanfm.desktop
+File Manager PCManFM
+Browse the file system and manage the files
+system-file-manager
+
+9
+File Manager PCManFM
+pcmanfm %U
+2
+0
+-galculator.desktop
+Galculator
+Perform simple and scientific calculations
+galculator
+
+9
+Galculator
+galculator
+2
+0
+-gpicview.desktop
+Image Viewer
+View your images easily
+gpicview
+
+9
+Image Viewer
+gpicview %f
+2
+0
+-leafpad.desktop
+Leafpad
+Simple text editor
+leafpad
+
+9
+Leafpad
+leafpad %f
+0
+0
+-lxterminal.desktop
+LXTerminal
+Use the command line
+lxterminal
+
+9
+LXTerminal
+lxterminal
+0
+0
+-globaltime.desktop
+Orage Globaltime
+Show clocks from different countries
+orage_globaltime
+
+9
+Orage Globaltime
+globaltime
+2
+0
+-xfce4-run.desktop
+Run Program...
+Run a program
+gtk-execute
+
+9
+Run Program...
+xfce4-appfinder --collapsed
+2
+8
+-exo-terminal-emulator.desktop
+Terminal Emulator
+Use the command line
+utilities-terminal
+
+9
+Terminal Emulator
+exo-open --launch TerminalEmulator
+2
+8
+-xarchiver.desktop
+Xarchiver
+A GTK+2 only archive manager
+xarchiver
+
+9
+Xarchiver
+xarchiver %f
+2
+0
+
++Internet
+Internet
+Programs for Internet access such as web and email
+applications-internet
+lxde-network.directory
+2
+-exo-mail-reader.desktop
+Mail Reader
+Read your email
+internet-mail
+
+9
+Mail Reader
+exo-open --launch MailReader %u
+2
+8
+-JB-javaws-jdk8.desktop
+Oracle Java 8 Web Start
+Oracle Java 8 Web Start
+oracle_java8
+
+9
+Oracle Java 8 Web Start
+/usr/lib/jvm/java-8-oracle/jre/bin/javaws %u
+0
+0
+-exo-web-browser.desktop
+Web Browser
+Browse the web
+web-browser
+
+9
+Web Browser
+exo-open --launch WebBrowser %u
+2
+8
+
++Office
+Office
+Office Applications
+applications-office
+lxde-office.directory
+2
+-xfcalendar.desktop
+Orage Calendar
+Desktop calendar
+xfcalendar
+
+9
+Orage Calendar
+orage
+2
+0
+-globaltime.desktop
+Orage Globaltime
+Show clocks from different countries
+orage_globaltime
+
+9
+Orage Globaltime
+globaltime
+2
+0
+
++Other
+Other
+Applications that did not fit in other categories
+applications-other
+lxde-other.directory
+2
+-menu-xdg-X-Debian-Screen-Saving-activate_screensaver_(next).desktop
+Activate ScreenSaver (Next)
+
+
+X-Debian-Screen-Saving-activate_screensaver_(next).desktop
+11
+Activate ScreenSaver (Next)
+/usr/bin/xscreensaver-command -next
+0
+0
+-menu-xdg-X-Debian-Screen-Saving-activate_screensaver_(previous).desktop
+Activate ScreenSaver (Previous)
+
+
+X-Debian-Screen-Saving-activate_screensaver_(previous).desktop
+11
+Activate ScreenSaver (Previous)
+/usr/bin/xscreensaver-command -prev
+0
+0
+-menu-xdg-X-Debian-Screen-Saving-activate_screensaver_(random).desktop
+Activate ScreenSaver (Random)
+
+
+X-Debian-Screen-Saving-activate_screensaver_(random).desktop
+11
+Activate ScreenSaver (Random)
+/usr/bin/xscreensaver-command -activate
+0
+0
+-menu-xdg-X-Debian-Applications-System-Package-Management-aptitude_package_manager_(text).desktop
+Aptitude Package Manager (text)
+
+
+X-Debian-Applications-System-Package-Management-aptitude_package_manager_(text).desktop
+11
+Aptitude Package Manager (text)
+/usr/bin/aptitude-curses
+1
+0
+-menu-xdg-X-Debian-Applications-Shells-bash.desktop
+Bash
+
+
+X-Debian-Applications-Shells-bash.desktop
+11
+Bash
+/bin/bash --login
+1
+0
+-menu-xdg-X-Debian-Applications-Science-Mathematics-bc.desktop
+Bc
+
+
+X-Debian-Applications-Science-Mathematics-bc.desktop
+11
+Bc
+/usr/bin/bc
+1
+0
+-menu-xdg-X-Debian-Applications-Programming-beanshell_(text).desktop
+BeanShell (text)
+
+
+X-Debian-Applications-Programming-beanshell_(text).desktop
+11
+BeanShell (text)
+/usr/bin/bsh
+1
+0
+-menu-xdg-X-Debian-Applications-Programming-beanshell_(windowed).desktop
+BeanShell (windowed)
+
+
+X-Debian-Applications-Programming-beanshell_(windowed).desktop
+11
+BeanShell (windowed)
+/usr/bin/xbsh
+0
+0
+-menu-xdg-X-Debian-Applications-Shells-dash.desktop
+Dash
+
+
+X-Debian-Applications-Shells-dash.desktop
+11
+Dash
+/bin/dash -i
+1
+0
+-menu-xdg-X-Debian-Applications-System-Administration-debian_task_selector.desktop
+Debian Task selector
+
+
+X-Debian-Applications-System-Administration-debian_task_selector.desktop
+11
+Debian Task selector
+su-to-root -c tasksel
+1
+0
+-menu-xdg-X-Debian-Screen-Saving-demo_screen_hacks.desktop
+Demo Screen Hacks
+
+
+X-Debian-Screen-Saving-demo_screen_hacks.desktop
+11
+Demo Screen Hacks
+/usr/bin/xscreensaver-command -demo
+0
+0
+-menu-xdg-X-Debian-Screen-Saving-disable_xscreensaver.desktop
+Disable XScreenSaver
+
+
+X-Debian-Screen-Saving-disable_xscreensaver.desktop
+11
+Disable XScreenSaver
+/usr/bin/xscreensaver-command -exit
+0
+0
+-menu-xdg-X-Debian-Applications-System-Administration-dsl_pppoe_configuration_tool.desktop
+DSL/PPPoE configuration tool
+
+/usr/share/pixmaps/pppoeconf.xpm
+X-Debian-Applications-System-Administration-dsl_pppoe_configuration_tool.desktop
+11
+DSL/PPPoE configuration tool
+/usr/sbin/pppoeconf
+1
+0
+-menu-xdg-X-Debian-Applications-System-Administration-editres.desktop
+Editres
+Editres: resource editor for X Toolkit applications
+
+X-Debian-Applications-System-Administration-editres.desktop
+11
+Editres
+editres
+0
+0
+-menu-xdg-X-Debian-Screen-Saving-enable_xscreensaver.desktop
+Enable XScreenSaver
+
+
+X-Debian-Screen-Saving-enable_xscreensaver.desktop
+11
+Enable XScreenSaver
+/usr/bin/xscreensaver
+0
+0
+-menu-xdg-X-Debian-Applications-Programming-findbugs.desktop
+findbugs
+
+
+X-Debian-Applications-Programming-findbugs.desktop
+11
+findbugs
+/usr/bin/findbugs
+0
+0
+-menu-xdg-X-Debian-Applications-Science-Mathematics-galculator.desktop
+galculator
+
+/usr/share/pixmaps/galculator.xpm
+X-Debian-Applications-Science-Mathematics-galculator.desktop
+11
+galculator
+/usr/bin/galculator
+0
+0
+-menu-xdg-X-Debian-Applications-System-Monitoring-htop.desktop
+htop
+
+
+X-Debian-Applications-System-Monitoring-htop.desktop
+11
+htop
+/usr/bin/htop
+1
+0
+-menu-xdg-X-Debian-Help-info.desktop
+Info
+GNU Info browser
+
+X-Debian-Help-info.desktop
+11
+Info
+info
+1
+0
+-menu-xdg-X-Debian-Applications-Editors-leafpad.desktop
+LeafPad
+GTK+ based simple text editor
+/usr/share/pixmaps/leafpad.xpm
+X-Debian-Applications-Editors-leafpad.desktop
+11
+LeafPad
+/usr/bin/leafpad
+0
+0
+-menu-xdg-X-Debian-Screen-Locking-lock_screen_(xscreensaver).desktop
+Lock Screen (XScreenSaver)
+
+
+X-Debian-Screen-Locking-lock_screen_(xscreensaver).desktop
+11
+Lock Screen (XScreenSaver)
+/usr/bin/xscreensaver-command -lock
+0
+0
+-menu-xdg-X-Debian-Applications-System-Administration-lxappearance.desktop
+LXAppearance
+LXDE GTK+ theme switcher
+
+X-Debian-Applications-System-Administration-lxappearance.desktop
+11
+LXAppearance
+/usr/bin/lxappearance
+0
+0
+-menu-xdg-X-Debian-Applications-System-Monitoring-lxrandr.desktop
+LXRandR
+LXDE monitor configuration tool
+
+X-Debian-Applications-System-Monitoring-lxrandr.desktop
+11
+LXRandR
+/usr/bin/lxrandr
+0
+0
+-menu-xdg-X-Debian-Applications-Terminal-Emulators-lxterminal.desktop
+LXTerminal
+LXDE terminal emulator
+/usr/share/pixmaps/lxterminal.xpm
+X-Debian-Applications-Terminal-Emulators-lxterminal.desktop
+11
+LXTerminal
+/usr/bin/lxterminal
+0
+0
+-menu-xdg-X-Debian-Applications-Network-Web-Browsing-lynx-cur.desktop
+Lynx-cur
+
+
+X-Debian-Applications-Network-Web-Browsing-lynx-cur.desktop
+11
+Lynx-cur
+lynx
+1
+0
+-menu-xdg-X-Debian-Applications-Editors-nano.desktop
+Nano
+
+/usr/share/nano/nano-menu.xpm
+X-Debian-Applications-Editors-nano.desktop
+11
+Nano
+/bin/nano
+1
+0
+-menu-xdg-X-Debian-Games-Toys-oclock.desktop
+Oclock
+Oclock: analog clock for X
+
+X-Debian-Games-Toys-oclock.desktop
+11
+Oclock
+oclock
+0
+0
+-menu-xdg-X-Debian-Applications-System-Administration-openbox_configuration_manager.desktop
+Openbox Configuration Manager
+
+/usr/share/pixmaps/obconf.xpm
+X-Debian-Applications-System-Administration-openbox_configuration_manager.desktop
+11
+Openbox Configuration Manager
+/usr/bin/obconf
+0
+0
+-menu-xdg-X-Debian-Applications-File-Management-pcmanfm.desktop
+PCManFM
+Real Tabbed File Manager
+
+X-Debian-Applications-File-Management-pcmanfm.desktop
+11
+PCManFM
+/usr/bin/pcmanfm
+0
+0
+-menu-xdg-X-Debian-Applications-System-Administration-pppconfig.desktop
+pppconfig
+
+
+X-Debian-Applications-System-Administration-pppconfig.desktop
+11
+pppconfig
+su-to-root -p root -c /usr/sbin/pppconfig
+1
+0
+-menu-xdg-X-Debian-Applications-System-Monitoring-pstree.desktop
+Pstree
+
+/usr/share/pixmaps/pstree16.xpm
+X-Debian-Applications-System-Monitoring-pstree.desktop
+11
+Pstree
+/usr/bin/pstree.x11
+1
+0
+-menu-xdg-X-Debian-Applications-Programming-python_(v2.7).desktop
+Python (v2.7)
+
+/usr/share/pixmaps/python2.7.xpm
+X-Debian-Applications-Programming-python_(v2.7).desktop
+11
+Python (v2.7)
+/usr/bin/python2.7
+1
+0
+-menu-xdg-X-Debian-Applications-Programming-python_(v3.4).desktop
+Python (v3.4)
+
+/usr/share/pixmaps/python3.4.xpm
+X-Debian-Applications-Programming-python_(v3.4).desktop
+11
+Python (v3.4)
+/usr/bin/python3.4
+1
+0
+-menu-xdg-X-Debian-Screen-Saving-reinitialize_xscreensaver.desktop
+Reinitialize XScreenSaver
+
+
+X-Debian-Screen-Saving-reinitialize_xscreensaver.desktop
+11
+Reinitialize XScreenSaver
+/usr/bin/xscreensaver-command -restart
+0
+0
+-menu-xdg-X-Debian-Applications-Programming-ruby_(irb1.9.1).desktop
+Ruby (irb1.9.1)
+
+
+X-Debian-Applications-Programming-ruby_(irb1.9.1).desktop
+11
+Ruby (irb1.9.1)
+/usr/bin/irb1.9.1
+1
+0
+-menu-xdg-X-Debian-Screen-Saving-screensaver_preferences.desktop
+ScreenSaver Preferences
+
+
+X-Debian-Screen-Saving-screensaver_preferences.desktop
+11
+ScreenSaver Preferences
+/usr/bin/xscreensaver-command -prefs
+0
+0
+-menu-xdg-X-Debian-Applications-Shells-sh.desktop
+Sh
+
+
+X-Debian-Applications-Shells-sh.desktop
+11
+Sh
+/bin/sh --login
+1
+0
+-menu-xdg-X-Debian-Applications-Programming-tclsh8.5.desktop
+Tclsh8.5
+
+
+X-Debian-Applications-Programming-tclsh8.5.desktop
+11
+Tclsh8.5
+/usr/bin/tclsh8.5
+1
+0
+-menu-xdg-X-Debian-Applications-Programming-tclsh8.6.desktop
+Tclsh8.6
+
+
+X-Debian-Applications-Programming-tclsh8.6.desktop
+11
+Tclsh8.6
+/usr/bin/tclsh8.6
+1
+0
+-menu-xdg-X-Debian-Applications-Network-Communication-telnet.desktop
+Telnet
+
+
+X-Debian-Applications-Network-Communication-telnet.desktop
+11
+Telnet
+/usr/bin/telnet
+1
+0
+-menu-xdg-X-Debian-Applications-System-Administration-texconfig.desktop
+TeXconfig
+
+
+X-Debian-Applications-System-Administration-texconfig.desktop
+11
+TeXconfig
+/usr/bin/texconfig
+1
+0
+-menu-xdg-X-Debian-Help-texdoctk.desktop
+TeXdoctk
+
+
+X-Debian-Help-texdoctk.desktop
+11
+TeXdoctk
+/usr/bin/texdoctk
+0
+0
+-menu-xdg-X-Debian-Applications-File-Management-thunar.desktop
+Thunar
+Xfce4 File Manager
+
+X-Debian-Applications-File-Management-thunar.desktop
+11
+Thunar
+/usr/bin/thunar
+0
+0
+-menu-xdg-X-Debian-Applications-Programming-tkwish8.5.desktop
+TkWish8.5
+
+
+X-Debian-Applications-Programming-tkwish8.5.desktop
+11
+TkWish8.5
+x-terminal-emulator -e /usr/bin/wish8.5
+0
+0
+-menu-xdg-X-Debian-Applications-Programming-tkwish8.6.desktop
+TkWish8.6
+
+
+X-Debian-Applications-Programming-tkwish8.6.desktop
+11
+TkWish8.6
+x-terminal-emulator -e /usr/bin/wish8.6
+0
+0
+-menu-xdg-X-Debian-Applications-System-Monitoring-top.desktop
+Top
+
+
+X-Debian-Applications-System-Monitoring-top.desktop
+11
+Top
+/usr/bin/top
+1
+0
+-menu-xdg-X-Debian-Applications-Network-Web-Browsing-w3m.desktop
+w3m
+
+
+X-Debian-Applications-Network-Web-Browsing-w3m.desktop
+11
+w3m
+/usr/bin/w3m /usr/share/doc/w3m/MANUAL.html
+1
+0
+-menu-xdg-X-Debian-Applications-File-Management-xarchiver.desktop
+Xarchiver
+GTK+ frontend for most used compression formats
+/usr/share/pixmaps/xarchiver.xpm
+X-Debian-Applications-File-Management-xarchiver.desktop
+11
+Xarchiver
+/usr/bin/xarchiver
+0
+0
+-menu-xdg-X-Debian-Applications-Network-Communication-xbiff.desktop
+Xbiff
+Xbiff: mailbox flag for X
+
+X-Debian-Applications-Network-Communication-xbiff.desktop
+11
+Xbiff
+xbiff
+0
+0
+-menu-xdg-X-Debian-Applications-Science-Mathematics-xcalc.desktop
+Xcalc
+Xcalc: scientific calculator for X
+
+X-Debian-Applications-Science-Mathematics-xcalc.desktop
+11
+Xcalc
+xcalc
+0
+0
+-menu-xdg-X-Debian-Applications-System-Administration-xclipboard.desktop
+Xclipboard
+Xclipboard: clipboard for text cut and paste operations in X
+
+X-Debian-Applications-System-Administration-xclipboard.desktop
+11
+Xclipboard
+xclipboard
+0
+0
+-menu-xdg-X-Debian-Games-Toys-xclock_(analog).desktop
+Xclock (analog)
+Xclock (analog): analog clock for X
+
+X-Debian-Games-Toys-xclock_(analog).desktop
+11
+Xclock (analog)
+xclock -analog
+0
+0
+-menu-xdg-X-Debian-Games-Toys-xclock_(digital).desktop
+Xclock (digital)
+Xclock (digital): digital clock for X
+
+X-Debian-Games-Toys-xclock_(digital).desktop
+11
+Xclock (digital)
+xclock -digital -update 1
+0
+0
+-menu-xdg-X-Debian-Applications-System-Monitoring-xconsole.desktop
+Xconsole
+Xconsole: monitor system console messages with X
+
+X-Debian-Applications-System-Monitoring-xconsole.desktop
+11
+Xconsole
+xconsole -file /dev/xconsole
+0
+0
+-menu-xdg-X-Debian-Applications-Viewers-xditview.desktop
+Xditview
+Xditview: a ditroff file viewer for X
+
+X-Debian-Applications-Viewers-xditview.desktop
+11
+Xditview
+xditview
+0
+0
+-menu-xdg-X-Debian-Applications-Viewers-xdvi.desktop
+XDvi
+
+
+X-Debian-Applications-Viewers-xdvi.desktop
+11
+XDvi
+/usr/bin/xdvi
+0
+0
+-menu-xdg-X-Debian-Applications-Editors-xedit.desktop
+Xedit
+Xedit: a simple text editor for X
+
+X-Debian-Applications-Editors-xedit.desktop
+11
+Xedit
+xedit
+0
+0
+-menu-xdg-X-Debian-Applications-System-Monitoring-xev.desktop
+Xev
+Xev: display X events
+
+X-Debian-Applications-System-Monitoring-xev.desktop
+11
+Xev
+x-terminal-emulator -e xev
+0
+0
+-menu-xdg-X-Debian-Games-Toys-xeyes.desktop
+Xeyes
+Xeyes: demo in which a pair of eyes follow the mouse pointer in X
+
+X-Debian-Games-Toys-xeyes.desktop
+11
+Xeyes
+xeyes
+0
+0
+-menu-xdg-X-Debian-Applications-System-Administration-xfce_application_finder.desktop
+Xfce Application Finder
+An application finder for the Xfce4 desktop environment
+/usr/share/pixmaps/xfce4-appfinder.xpm
+X-Debian-Applications-System-Administration-xfce_application_finder.desktop
+11
+Xfce Application Finder
+xfce4-appfinder
+0
+0
+-menu-xdg-X-Debian-Applications-Sound-xfce_mixer.desktop
+Xfce Mixer
+
+/usr/share/pixmaps/xfce4-mixer.xpm
+X-Debian-Applications-Sound-xfce_mixer.desktop
+11
+Xfce Mixer
+/usr/bin/xfce4-mixer
+0
+0
+-menu-xdg-X-Debian-Applications-File-Management-xfdesktop.desktop
+Xfdesktop
+Xfce desktop manager
+
+X-Debian-Applications-File-Management-xfdesktop.desktop
+11
+Xfdesktop
+xfdesktop
+0
+0
+-menu-xdg-X-Debian-Applications-System-Administration-xfontsel.desktop
+Xfontsel
+Xfontsel: font viewer/selector for X
+
+X-Debian-Applications-System-Administration-xfontsel.desktop
+11
+Xfontsel
+xfontsel
+0
+0
+-menu-xdg-X-Debian-Applications-System-Administration-xkill.desktop
+Xkill
+Xkill: tool to kill X clients by clicking on their windows
+
+X-Debian-Applications-System-Administration-xkill.desktop
+11
+Xkill
+xkill
+0
+0
+-menu-xdg-X-Debian-Applications-System-Monitoring-xload.desktop
+Xload
+Xload: system load average display for X
+
+X-Debian-Applications-System-Monitoring-xload.desktop
+11
+Xload
+xload
+0
+0
+-menu-xdg-X-Debian-Games-Toys-xlogo.desktop
+Xlogo
+Xlogo: demo which displays the X logo
+
+X-Debian-Games-Toys-xlogo.desktop
+11
+Xlogo
+xlogo
+0
+0
+-menu-xdg-X-Debian-Applications-Accessibility-xmag.desktop
+Xmag
+Xmag: magnify parts of the X screen
+
+X-Debian-Applications-Accessibility-xmag.desktop
+11
+Xmag
+xmag
+0
+0
+-menu-xdg-X-Debian-Help-xman.desktop
+Xman
+Xman: manual page browser for X
+
+X-Debian-Help-xman.desktop
+11
+Xman
+xman
+0
+0
+-menu-xdg-X-Debian-Applications-System-Administration-xrefresh.desktop
+Xrefresh
+Xrefresh: redraw X screen
+
+X-Debian-Applications-System-Administration-xrefresh.desktop
+11
+Xrefresh
+xrefresh
+0
+0
+-menu-xdg-X-Debian-Applications-Terminal-Emulators-xterm.desktop
+XTerm
+XTerm: terminal emulator for X
+/usr/share/pixmaps/xterm-color_32x32.xpm
+X-Debian-Applications-Terminal-Emulators-xterm.desktop
+11
+XTerm
+xterm
+0
+0
+-menu-xdg-X-Debian-Applications-Terminal-Emulators-x-terminal_as_root_(gksu).desktop
+X-Terminal as root (GKsu)
+Runs an X terminal application. Uses GKsu to ask the password.
+/usr/share/pixmaps/gksu-debian.xpm
+X-Debian-Applications-Terminal-Emulators-x-terminal_as_root_(gksu).desktop
+11
+X-Terminal as root (GKsu)
+/usr/bin/gksu -u root /usr/bin/x-terminal-emulator
+0
+0
+-menu-xdg-X-Debian-Applications-Terminal-Emulators-xterm_(unicode).desktop
+XTerm (Unicode)
+XTerm: terminal emulator for X with Unicode support
+/usr/share/pixmaps/xterm-color_32x32.xpm
+X-Debian-Applications-Terminal-Emulators-xterm_(unicode).desktop
+11
+XTerm (Unicode)
+uxterm
+0
+0
+-menu-xdg-X-Debian-Applications-System-Hardware-xvidtune.desktop
+Xvidtune
+Xvidtune: tool for customizing X server modelines
+
+X-Debian-Applications-System-Hardware-xvidtune.desktop
+11
+Xvidtune
+xvidtune
+0
+0
+-menu-xdg-X-Debian-Applications-Graphics-x_window_snapshot.desktop
+X Window Snapshot
+X Window Snapshot: take snapshot of any X window (xwd|xwud)
+
+X-Debian-Applications-Graphics-x_window_snapshot.desktop
+11
+X Window Snapshot
+xwd | xwud
+0
+0
+
++Development
+Programming
+Tools for software development
+applications-development
+lxde-development.directory
+2
+-JB-mission-control-jdk8.desktop
+Oracle Java 8 Mission Control
+
+oracle_java8
+
+9
+Oracle Java 8 Mission Control
+/usr/lib/jvm/java-8-oracle/bin/jmc
+2
+0
+
++Multimedia
+Sound & Video
+Multimedia menu
+applications-multimedia
+lxde-audio-video.directory
+2
+-xfce4-mixer.desktop
+Audio Mixer
+Adjust volume levels
+multimedia-volume-control
+
+9
+Audio Mixer
+xfce4-mixer
+2
+0
+-lxmusic.desktop
+Music Player
+Play your music files easily
+lxmusic
+
+9
+Music Player
+lxmusic
+2
+0
+
++System
+System Tools
+System configuration and monitoring
+applications-system
+lxde-system-tools.directory
+2
+-Thunar-bulk-rename.desktop
+Bulk Rename
+Rename Multiple Files
+Thunar
+
+9
+Bulk Rename
+/usr/lib/x86_64-linux-gnu/Thunar/ThunarBulkRename %F
+2
+0
+-htop.desktop
+Htop
+Show System Processes
+htop
+
+9
+Htop
+htop
+1
+0
+-xfce4-session-logout.desktop
+Log Out
+Log out of the Xfce Desktop
+system-log-out
+
+9
+Log Out
+xfce4-session-logout
+0
+8
+-JB-jconsole-jdk8.desktop
+Oracle Java 8 Console
+Oracle Java 8 Monitoring & Management Console
+oracle_java8
+
+9
+Oracle Java 8 Console
+/usr/lib/jvm/java-8-oracle/bin/jconsole
+0
+0
+-JB-jvisualvm-jdk8.desktop
+Oracle Java 8 VisualVM
+Oracle Java 8 Monitoring & Management (VisualVM)
+oracle_java8
+
+9
+Oracle Java 8 VisualVM
+/usr/lib/jvm/java-8-oracle/bin/jvisualvm
+0
+0
+-Thunar.desktop
+Thunar File Manager
+Browse the filesystem with the file manager
+Thunar
+
+9
+Thunar File Manager
+thunar %F
+2
+0
+-debian-uxterm.desktop
+UXTerm
+standard terminal emulator for the X window system
+xterm-color
+
+9
+UXTerm
+uxterm
+0
+0
+-debian-xterm.desktop
+XTerm
+standard terminal emulator for the X window system
+xterm-color
+
+9
+XTerm
+xterm
+0
+0
+
+-
++DesktopSettings
+Preferences
+Personal preferences
+preferences-desktop
+lxde-settings.directory
+2
+-xfce4-accessibility-settings.desktop
+Accessibility
+Improve keyboard and mouse accessibility
+preferences-desktop-accessibility
+
+9
+Accessibility
+xfce4-accessibility-settings
+2
+8
+-xfce-ui-settings.desktop
+Appearance
+Customize the look of your desktop
+preferences-desktop-theme
+
+9
+Appearance
+xfce4-appearance-settings
+2
+8
+-lxappearance.desktop
+Customize Look and Feel
+Customizes look and feel of your desktop and applications
+preferences-desktop-theme
+
+9
+Customize Look and Feel
+lxappearance
+2
+-15
+-xfce-backdrop-settings.desktop
+Desktop 
+Set desktop background and menu and icon behavior
+preferences-desktop-wallpaper
+
+9
+Desktop 
+xfdesktop-settings
+2
+8
+-pcmanfm-desktop-pref.desktop
+Desktop Preferences
+Change desktop wallpapers and behavior of desktop manager
+user-desktop
+
+9
+Desktop Preferences
+pcmanfm --desktop-pref
+2
+-15
+-lxsession-edit.desktop
+Desktop Session Settings
+Manage applications loaded in desktop session
+xfwm4
+
+9
+Desktop Session Settings
+lxsession-edit
+0
+-15
+-xfce-display-settings.desktop
+Display
+Configure screen settings and layout
+video-display
+
+9
+Display
+xfce4-display-settings
+2
+8
+-thunar-settings.desktop
+File Manager
+Configure the Thunar file manager
+system-file-manager
+
+9
+File Manager
+thunar-settings
+2
+0
+-xfce-keyboard-settings.desktop
+Keyboard
+Edit keyboard settings and application shortcuts
+preferences-desktop-keyboard
+
+9
+Keyboard
+xfce4-keyboard-settings
+2
+8
+-lxinput.desktop
+Keyboard and Mouse
+Configure keyboard, mouse, and other input devices
+input-keyboard
+
+9
+Keyboard and Mouse
+lxinput
+2
+1
+-xfce4-mime-settings.desktop
+MIME Type Editor
+Associate applications with MIME types
+application-x-executable
+
+9
+MIME Type Editor
+xfce4-mime-settings
+2
+8
+-lxrandr.desktop
+Monitor Settings
+Change screen resolution and configure external monitors
+display
+
+9
+Monitor Settings
+lxrandr
+0
+0
+-xfce-mouse-settings.desktop
+Mouse and Touchpad
+Configure pointer device behavior and appearance
+preferences-desktop-peripherals
+
+9
+Mouse and Touchpad
+xfce4-mouse-settings
+2
+8
+-xfce4-notifyd-config.desktop
+Notifications
+Customize how notifications appear on your screen
+xfce4-notifyd
+
+9
+Notifications
+xfce4-notifyd-config
+2
+8
+-obconf.desktop
+Openbox Configuration Manager
+Tweak settings for Openbox
+obconf
+
+9
+Openbox Configuration Manager
+obconf %f
+2
+0
+-openjdk-7-policytool.desktop
+OpenJDK Java 7 Policy Tool
+OpenJDK Java 7 Policy Tool
+openjdk-7
+
+9
+OpenJDK Java 7 Policy Tool
+/usr/bin/policytool
+0
+0
+-JB-controlpanel-jdk8.desktop
+Oracle Java 8 Plugin Control Panel
+Oracle Java 8 Plugin Control Panel
+oracle_java8
+
+9
+Oracle Java 8 Plugin Control Panel
+/usr/lib/jvm/java-8-oracle/bin/ControlPanel
+0
+0
+-JB-policytool-jdk8.desktop
+Oracle Java 8 Policy Tool
+Oracle Java 8 Policy Tool
+oracle_java8
+
+9
+Oracle Java 8 Policy Tool
+/usr/lib/jvm/java-8-oracle/bin/policytool
+0
+0
+-xfce-xfcalendar-settings.desktop
+Orage preferences
+Settings for the Xfce 4 Calendar Application (Orage)
+xfcalendar
+
+9
+Orage preferences
+orage -p
+0
+8
+-panel-preferences.desktop
+Panel
+Customize the panel
+xfce4-panel
+
+9
+Panel
+xfce4-panel --preferences
+2
+8
+-exo-preferred-applications.desktop
+Preferred Applications
+Preferred Applications (Web Browser, Mail Reader and Terminal Emulator)
+preferences-desktop-default-applications
+
+9
+Preferred Applications
+exo-preferred-applications
+2
+8
+-thunar-volman-settings.desktop
+Removable Drives and Media
+Configure management of removable drives and media
+drive-removable-media
+
+9
+Removable Drives and Media
+thunar-volman-settings
+2
+0
+-xscreensaver-properties.desktop
+Screensaver
+Change screensaver properties
+xscreensaver
+
+9
+Screensaver
+xscreensaver-demo
+0
+0
+-xfce-session-settings.desktop
+Session and Startup
+Customize desktop startup and splash screen
+xfce4-session
+
+9
+Session and Startup
+xfce4-session-settings
+2
+8
+-xfce4-settings-editor.desktop
+Settings Editor
+Graphical settings editor for Xfconf
+preferences-system
+
+9
+Settings Editor
+xfce4-settings-editor
+0
+8
+-xfce-settings-manager.desktop
+Settings Manager
+Graphical Settings Manager for Xfce 4
+preferences-desktop
+
+9
+Settings Manager
+xfce4-settings-manager
+0
+8
+-xfce-wm-settings.desktop
+Window Manager
+Configure window behavior and shortcuts
+xfwm4
+
+9
+Window Manager
+xfwm4-settings
+2
+8
+-xfce-wmtweaks-settings.desktop
+Window Manager Tweaks
+Fine-tune window behaviour and effects
+wmtweaks
+
+9
+Window Manager Tweaks
+xfwm4-tweaks-settings
+2
+8
+-xfce-workspaces-settings.desktop
+Workspaces
+Configure layout, names and margins
+xfce4-workspaces
+
+9
+Workspaces
+xfwm4-workspace-settings
+2
+8
+
+

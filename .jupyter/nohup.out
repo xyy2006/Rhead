@@ -1,0 +1,16 @@
+[I 01:54:43.256 NotebookApp] JupyterLab beta preview extension loaded from /home/yyang/anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 01:54:43.257 NotebookApp] JupyterLab application directory is /home/yyang/anaconda3/share/jupyter/lab
+[I 01:54:43.261 NotebookApp] Serving notebooks from local directory: /home/yyang
+[I 01:54:43.261 NotebookApp] 0 active kernels
+[I 01:54:43.261 NotebookApp] The Jupyter Notebook is running at:
+[I 01:54:43.261 NotebookApp] https://localhost:9191/
+[I 01:54:43.262 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 01:54:49.327 NotebookApp] SSL Error on 10 ('127.0.0.1', 55186): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:833)
+[W 01:54:49.524 NotebookApp] SSL Error on 10 ('127.0.0.1', 55188): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:833)
+[W 01:54:49.806 NotebookApp] SSL Error on 10 ('127.0.0.1', 55190): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:833)
+[I 01:56:51.361 NotebookApp] 302 GET / (127.0.0.1) 1.14ms
+[I 01:56:51.500 NotebookApp] 302 GET /tree? (127.0.0.1) 1.19ms
+[W 01:57:35.738 NotebookApp] 401 POST /login?next=%2Ftree%3F (127.0.0.1) 2.75ms referer=https://127.0.0.1:8889/login?next=%2Ftree%3F
+[I 01:57:42.915 NotebookApp] 302 POST /login?next=%2Ftree%3F (127.0.0.1) 2.16ms
+[C 02:16:48.947 NotebookApp] received signal 15, stopping
+[I 02:16:48.948 NotebookApp] Shutting down 0 kernels

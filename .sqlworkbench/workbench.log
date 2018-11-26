@@ -1,0 +1,832 @@
+2018-07-30 19:56:57 INFO  =================== Log started =================== 
+2018-07-30 19:56:57 INFO  Using configdir: /home/yyang/.sqlworkbench 
+2018-07-30 19:56:57 INFO  Setting default locale to: en 
+2018-07-30 19:56:57 INFO  Starting SQL Workbench/J, Build 123 (2017-09-25 22:26) 
+2018-07-30 19:56:57 INFO  Java version=1.8.0_121, java.home=/gnshealthcare/software/jdk/jdk1.8.0_121/jre, vendor=Oracle Corporation, name=Java HotSpot(TM) 64-Bit Server VM 
+2018-07-30 19:56:57 INFO  Operating System=Linux, version=4.4.0-1057-aws, platform=amd64 
+2018-07-30 19:56:57 INFO  Available memory: 27305MB 
+2018-07-30 19:56:57 INFO  Forcing console mode because the Java runtime claims this is a headless system. Use -Dworkbench.gui.checkheadless=false to disable the check 
+2018-07-30 19:56:57 INFO  Installed signal handler for INT 
+2018-07-30 19:56:57 INFO  could not register signal handler for: QUIT Signal already used by VM or OS: SIGQUIT
+java.lang.IllegalArgumentException: Signal already used by VM or OS: SIGQUIT
+	at sun.misc.Signal.handle(Signal.java:166)
+	at workbench.console.SQLConsole.installSignalHandler(SQLConsole.java:752)
+	at workbench.console.SQLConsole.<init>(SQLConsole.java:110)
+	at workbench.console.SQLConsole.runConsole(SQLConsole.java:649)
+	at workbench.WbManager.main(WbManager.java:1227)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at workbench.WbStarter.main(WbStarter.java:163)
+
+2018-07-30 19:56:57 INFO  SQL Workbench/J Console interface started 
+2018-07-30 19:58:27 ERROR Error executing statement select top 100 * from table
+
+ Cannot execute command 'SELECT' without a connection!
+workbench.sql.StatementRunner$1: Cannot execute SELECT without a connection
+	at workbench.sql.StatementRunner.runStatement(StatementRunner.java:493)
+	at workbench.sql.BatchRunner.executeScript(BatchRunner.java:878)
+	at workbench.sql.BatchRunner.runScript(BatchRunner.java:807)
+	at workbench.console.SQLConsole.startConsole(SQLConsole.java:226)
+	at workbench.console.SQLConsole.runConsole(SQLConsole.java:651)
+	at workbench.WbManager.main(WbManager.java:1227)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at workbench.WbStarter.main(WbStarter.java:163)
+
+2018-07-30 19:58:50 INFO  Saved statement history to /home/yyang/.sqlworkbench/sqlworkbench_history.txt 
+2018-07-30 19:58:50 INFO  Stopping SQL Workbench/J, Build 123 
+2018-07-30 19:58:50 INFO  =================== Log stopped =================== 
+2018-07-30 20:34:54 INFO  =================== Log started =================== 
+2018-07-30 20:34:54 INFO  Using configdir: /home/yyang/.sqlworkbench 
+2018-07-30 20:34:54 INFO  Setting default locale to: en 
+2018-07-30 20:34:54 INFO  Starting SQL Workbench/J, Build 123 (2017-09-25 22:26) 
+2018-07-30 20:34:54 INFO  Java version=1.8.0_121, java.home=/gnshealthcare/software/jdk/jdk1.8.0_121/jre, vendor=Oracle Corporation, name=Java HotSpot(TM) 64-Bit Server VM 
+2018-07-30 20:34:54 INFO  Operating System=Linux, version=4.4.0-1057-aws, platform=amd64 
+2018-07-30 20:34:54 INFO  Available memory: 27305MB 
+2018-07-30 20:34:54 INFO  Forcing console mode because the Java runtime claims this is a headless system. Use -Dworkbench.gui.checkheadless=false to disable the check 
+2018-07-30 20:34:54 INFO  Installed signal handler for INT 
+2018-07-30 20:34:54 INFO  could not register signal handler for: QUIT Signal already used by VM or OS: SIGQUIT
+java.lang.IllegalArgumentException: Signal already used by VM or OS: SIGQUIT
+	at sun.misc.Signal.handle(Signal.java:166)
+	at workbench.console.SQLConsole.installSignalHandler(SQLConsole.java:752)
+	at workbench.console.SQLConsole.<init>(SQLConsole.java:110)
+	at workbench.console.SQLConsole.runConsole(SQLConsole.java:649)
+	at workbench.WbManager.main(WbManager.java:1227)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at workbench.WbStarter.main(WbStarter.java:163)
+
+2018-07-30 20:34:54 INFO  SQL Workbench/J Console interface started 
+2018-07-30 20:34:54 INFO  Loaded statement history from /home/yyang/.sqlworkbench/sqlworkbench_history.txt 
+2018-07-30 20:35:19 INFO  Saved statement history to /home/yyang/.sqlworkbench/sqlworkbench_history.txt 
+2018-07-30 20:35:19 INFO  Stopping SQL Workbench/J, Build 123 
+2018-07-30 20:35:19 INFO  =================== Log stopped =================== 
+2018-07-30 20:35:27 INFO  =================== Log started =================== 
+2018-07-30 20:35:27 INFO  Using configdir: /home/yyang/.sqlworkbench 
+2018-07-30 20:35:27 INFO  Setting default locale to: en 
+2018-07-30 20:35:27 INFO  Starting SQL Workbench/J, Build 123 (2017-09-25 22:26) 
+2018-07-30 20:35:27 INFO  Java version=1.8.0_121, java.home=/gnshealthcare/software/jdk/jdk1.8.0_121/jre, vendor=Oracle Corporation, name=Java HotSpot(TM) 64-Bit Server VM 
+2018-07-30 20:35:27 INFO  Operating System=Linux, version=4.4.0-1057-aws, platform=amd64 
+2018-07-30 20:35:27 INFO  Available memory: 27305MB 
+2018-07-30 20:35:27 INFO  Forcing console mode because the Java runtime claims this is a headless system. Use -Dworkbench.gui.checkheadless=false to disable the check 
+2018-07-30 20:35:27 INFO  Installed signal handler for INT 
+2018-07-30 20:35:27 INFO  could not register signal handler for: QUIT Signal already used by VM or OS: SIGQUIT
+java.lang.IllegalArgumentException: Signal already used by VM or OS: SIGQUIT
+	at sun.misc.Signal.handle(Signal.java:166)
+	at workbench.console.SQLConsole.installSignalHandler(SQLConsole.java:752)
+	at workbench.console.SQLConsole.<init>(SQLConsole.java:110)
+	at workbench.console.SQLConsole.runConsole(SQLConsole.java:649)
+	at workbench.WbManager.main(WbManager.java:1227)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at workbench.WbStarter.main(WbStarter.java:163)
+
+2018-07-30 20:35:27 INFO  SQL Workbench/J Console interface started 
+2018-07-30 20:35:27 INFO  Loaded statement history from /home/yyang/.sqlworkbench/sqlworkbench_history.txt 
+2018-07-30 20:35:30 INFO  Saved statement history to /home/yyang/.sqlworkbench/sqlworkbench_history.txt 
+2018-07-30 20:35:30 INFO  Stopping SQL Workbench/J, Build 123 
+2018-07-30 20:35:30 INFO  =================== Log stopped =================== 
+2018-07-30 20:37:48 INFO  =================== Log started =================== 
+2018-07-30 20:37:48 INFO  Using configdir: /home/yyang/.sqlworkbench 
+2018-07-30 20:37:48 INFO  Setting default locale to: en 
+2018-07-30 20:37:48 INFO  Starting SQL Workbench/J, Build 123 (2017-09-25 22:26) 
+2018-07-30 20:37:48 INFO  Java version=1.8.0_121, java.home=/gnshealthcare/software/jdk/jdk1.8.0_121/jre, vendor=Oracle Corporation, name=Java HotSpot(TM) 64-Bit Server VM 
+2018-07-30 20:37:48 INFO  Operating System=Linux, version=4.4.0-1057-aws, platform=amd64 
+2018-07-30 20:37:48 INFO  Available memory: 27305MB 
+2018-07-30 20:37:48 INFO  Forcing console mode because the Java runtime claims this is a headless system. Use -Dworkbench.gui.checkheadless=false to disable the check 
+2018-07-30 20:37:48 INFO  Installed signal handler for INT 
+2018-07-30 20:37:48 INFO  could not register signal handler for: QUIT Signal already used by VM or OS: SIGQUIT
+java.lang.IllegalArgumentException: Signal already used by VM or OS: SIGQUIT
+	at sun.misc.Signal.handle(Signal.java:166)
+	at workbench.console.SQLConsole.installSignalHandler(SQLConsole.java:752)
+	at workbench.console.SQLConsole.<init>(SQLConsole.java:110)
+	at workbench.console.SQLConsole.runConsole(SQLConsole.java:649)
+	at workbench.WbManager.main(WbManager.java:1227)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at workbench.WbStarter.main(WbStarter.java:163)
+
+2018-07-30 20:37:48 INFO  SQL Workbench/J Console interface started 
+2018-07-30 20:37:48 INFO  Loaded statement history from /home/yyang/.sqlworkbench/sqlworkbench_history.txt 
+2018-07-30 20:39:00 INFO  Saved statement history to /home/yyang/.sqlworkbench/sqlworkbench_history.txt 
+2018-07-30 20:39:00 INFO  Stopping SQL Workbench/J, Build 123 
+2018-07-30 20:39:00 INFO  =================== Log stopped =================== 
+2018-07-30 20:40:39 INFO  =================== Log started =================== 
+2018-07-30 20:40:39 INFO  Using configdir: /home/yyang/.sqlworkbench 
+2018-07-30 20:40:39 INFO  Setting default locale to: en 
+2018-07-30 20:40:39 INFO  Starting SQL Workbench/J, Build 123 (2017-09-25 22:26) 
+2018-07-30 20:40:39 INFO  Java version=1.8.0_121, java.home=/gnshealthcare/software/jdk/jdk1.8.0_121/jre, vendor=Oracle Corporation, name=Java HotSpot(TM) 64-Bit Server VM 
+2018-07-30 20:40:39 INFO  Operating System=Linux, version=4.4.0-1057-aws, platform=amd64 
+2018-07-30 20:40:39 INFO  Available memory: 27305MB 
+2018-07-30 20:40:39 INFO  Forcing console mode because the Java runtime claims this is a headless system. Use -Dworkbench.gui.checkheadless=false to disable the check 
+2018-07-30 20:40:39 INFO  Installed signal handler for INT 
+2018-07-30 20:40:39 INFO  could not register signal handler for: QUIT Signal already used by VM or OS: SIGQUIT
+java.lang.IllegalArgumentException: Signal already used by VM or OS: SIGQUIT
+	at sun.misc.Signal.handle(Signal.java:166)
+	at workbench.console.SQLConsole.installSignalHandler(SQLConsole.java:752)
+	at workbench.console.SQLConsole.<init>(SQLConsole.java:110)
+	at workbench.console.SQLConsole.runConsole(SQLConsole.java:649)
+	at workbench.WbManager.main(WbManager.java:1227)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at workbench.WbStarter.main(WbStarter.java:163)
+
+2018-07-30 20:40:39 INFO  SQL Workbench/J Console interface started 
+2018-07-30 20:40:39 INFO  Loaded statement history from /home/yyang/.sqlworkbench/sqlworkbench_history.txt 
+2018-07-31 23:23:15 INFO  =================== Log started =================== 
+2018-07-31 23:23:15 INFO  Using configdir: /home/yyang/.sqlworkbench 
+2018-07-31 23:23:15 INFO  Setting default locale to: en 
+2018-07-31 23:23:15 INFO  Starting SQL Workbench/J, Build 123 (2017-09-25 22:26) 
+2018-07-31 23:23:15 INFO  Java version=1.8.0_121, java.home=/gnshealthcare/software/jdk/jdk1.8.0_121/jre, vendor=Oracle Corporation, name=Java HotSpot(TM) 64-Bit Server VM 
+2018-07-31 23:23:15 INFO  Operating System=Linux, version=4.4.0-1057-aws, platform=amd64 
+2018-07-31 23:23:15 INFO  Available memory: 27305MB 
+2018-07-31 23:23:26 INFO  Using sizes: toolbar: 16, menu: 16 
+2018-07-31 23:23:50 INFO  New dev build available 
+2018-07-31 23:26:10 ERROR Desktop not supported! 
+2018-07-31 23:26:27 ERROR Thread 'AWT-EventQueue-0' caused an exception! sun.awt.image.BufImgSurfaceData cannot be cast to sun.java2d.xr.XRSurfaceData
+java.lang.ClassCastException: sun.awt.image.BufImgSurfaceData cannot be cast to sun.java2d.xr.XRSurfaceData
+	at sun.java2d.xr.XRPMBlitLoops.cacheToTmpSurface(XRPMBlitLoops.java:148)
+	at sun.java2d.xr.XrSwToPMBlit.Blit(XRPMBlitLoops.java:356)
+	at sun.java2d.SurfaceDataProxy.updateSurfaceData(SurfaceDataProxy.java:498)
+	at sun.java2d.SurfaceDataProxy.replaceData(SurfaceDataProxy.java:455)
+	at sun.java2d.SurfaceData.getSourceSurfaceData(SurfaceData.java:233)
+	at sun.java2d.pipe.DrawImage.renderImageCopy(DrawImage.java:566)
+	at sun.java2d.pipe.DrawImage.copyImage(DrawImage.java:67)
+	at sun.java2d.pipe.DrawImage.copyImage(DrawImage.java:1014)
+	at sun.java2d.SunGraphics2D.drawImage(SunGraphics2D.java:3318)
+	at sun.awt.image.ImageRepresentation.drawToBufImage(ImageRepresentation.java:813)
+	at sun.java2d.pipe.DrawImage.copyImage(DrawImage.java:1021)
+	at sun.java2d.SunGraphics2D.drawImage(SunGraphics2D.java:3318)
+	at sun.java2d.SunGraphics2D.drawImage(SunGraphics2D.java:3296)
+	at javax.swing.ImageIcon.paintIcon(ImageIcon.java:425)
+	at javax.swing.plaf.basic.BasicButtonUI.paintIcon(BasicButtonUI.java:292)
+	at javax.swing.plaf.basic.BasicButtonUI.paint(BasicButtonUI.java:216)
+	at javax.swing.plaf.ComponentUI.update(ComponentUI.java:161)
+	at javax.swing.plaf.metal.MetalButtonUI.update(MetalButtonUI.java:150)
+	at javax.swing.JComponent.paintComponent(JComponent.java:780)
+	at javax.swing.JComponent.paint(JComponent.java:1056)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JSplitPane.paintChildren(JSplitPane.java:1047)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JLayeredPane.paint(JLayeredPane.java:586)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintToOffscreen(JComponent.java:5210)
+	at javax.swing.BufferStrategyPaintManager.paint(BufferStrategyPaintManager.java:290)
+	at javax.swing.RepaintManager.paint(RepaintManager.java:1272)
+	at javax.swing.JComponent._paintImmediately(JComponent.java:5158)
+	at javax.swing.JComponent.paintImmediately(JComponent.java:4969)
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:854)
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:814)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:814)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:789)
+	at javax.swing.RepaintManager.prePaintDirtyRegions(RepaintManager.java:738)
+	at javax.swing.RepaintManager.access$1200(RepaintManager.java:64)
+	at javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1732)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:109)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:184)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:229)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:227)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:227)
+	at java.awt.Dialog.show(Dialog.java:1084)
+	at javax.swing.JOptionPane.showOptionDialog(JOptionPane.java:869)
+	at javax.swing.JOptionPane.showMessageDialog(JOptionPane.java:666)
+	at javax.swing.JOptionPane.showMessageDialog(JOptionPane.java:637)
+	at workbench.gui.WbSwingUtilities.lambda$showErrorMessage$2(WbSwingUtilities.java:551)
+	at workbench.gui.WbSwingUtilities.invoke(WbSwingUtilities.java:211)
+	at workbench.gui.WbSwingUtilities.showErrorMessage(WbSwingUtilities.java:549)
+	at workbench.gui.WbSwingUtilities.showErrorMessage(WbSwingUtilities.java:499)
+	at workbench.util.BrowserLauncher.openURL(BrowserLauncher.java:155)
+	at workbench.util.BrowserLauncher.openURL(BrowserLauncher.java:102)
+	at workbench.util.UpdateCheck.actionPerformed(UpdateCheck.java:183)
+	at workbench.gui.profiles.ProfileSelectionDialog$1.mouseClicked(ProfileSelectionDialog.java:189)
+	at java.awt.Component.processMouseEvent(Component.java:6536)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6298)
+	at java.awt.Container.processEvent(Container.java:2236)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2294)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4534)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)
+	at java.awt.Container.dispatchEventImpl(Container.java:2280)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:109)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:184)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:229)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:227)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:227)
+	at java.awt.Dialog.show(Dialog.java:1084)
+	at java.awt.Component.show(Component.java:1671)
+	at java.awt.Component.setVisible(Component.java:1623)
+	at java.awt.Window.setVisible(Window.java:1014)
+	at java.awt.Dialog.setVisible(Dialog.java:1005)
+	at workbench.gui.components.ConnectionSelector._selectConnection(ConnectionSelector.java:95)
+	at workbench.gui.WbSwingUtilities.invoke(WbSwingUtilities.java:211)
+	at workbench.gui.components.ConnectionSelector.selectConnection(ConnectionSelector.java:82)
+	at workbench.gui.MainWindow.selectConnection(MainWindow.java:2480)
+	at workbench.WbManager.lambda$openNewWindow$5(WbManager.java:719)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+
+2018-07-31 23:26:27 ERROR Thread 'AWT-EventQueue-0' caused an exception! sun.awt.image.BufImgSurfaceData cannot be cast to sun.java2d.xr.XRSurfaceData
+java.lang.ClassCastException: sun.awt.image.BufImgSurfaceData cannot be cast to sun.java2d.xr.XRSurfaceData
+	at sun.java2d.xr.XRPMBlitLoops.cacheToTmpSurface(XRPMBlitLoops.java:148)
+	at sun.java2d.xr.XrSwToPMBlit.Blit(XRPMBlitLoops.java:356)
+	at sun.java2d.SurfaceDataProxy.updateSurfaceData(SurfaceDataProxy.java:498)
+	at sun.java2d.SurfaceDataProxy.replaceData(SurfaceDataProxy.java:455)
+	at sun.java2d.SurfaceData.getSourceSurfaceData(SurfaceData.java:233)
+	at sun.java2d.pipe.DrawImage.renderImageCopy(DrawImage.java:566)
+	at sun.java2d.pipe.DrawImage.copyImage(DrawImage.java:67)
+	at sun.java2d.pipe.DrawImage.copyImage(DrawImage.java:1014)
+	at sun.java2d.SunGraphics2D.drawImage(SunGraphics2D.java:3318)
+	at sun.awt.image.ImageRepresentation.drawToBufImage(ImageRepresentation.java:813)
+	at sun.java2d.pipe.DrawImage.copyImage(DrawImage.java:1021)
+	at sun.java2d.SunGraphics2D.drawImage(SunGraphics2D.java:3318)
+	at sun.java2d.SunGraphics2D.drawImage(SunGraphics2D.java:3296)
+	at javax.swing.ImageIcon.paintIcon(ImageIcon.java:425)
+	at javax.swing.plaf.basic.BasicButtonUI.paintIcon(BasicButtonUI.java:292)
+	at javax.swing.plaf.basic.BasicButtonUI.paint(BasicButtonUI.java:216)
+	at javax.swing.plaf.ComponentUI.update(ComponentUI.java:161)
+	at javax.swing.plaf.metal.MetalButtonUI.update(MetalButtonUI.java:150)
+	at javax.swing.JComponent.paintComponent(JComponent.java:780)
+	at javax.swing.JComponent.paint(JComponent.java:1056)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JSplitPane.paintChildren(JSplitPane.java:1047)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JLayeredPane.paint(JLayeredPane.java:586)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintToOffscreen(JComponent.java:5210)
+	at javax.swing.BufferStrategyPaintManager.paint(BufferStrategyPaintManager.java:290)
+	at javax.swing.RepaintManager.paint(RepaintManager.java:1272)
+	at javax.swing.JComponent._paintImmediately(JComponent.java:5158)
+	at javax.swing.JComponent.paintImmediately(JComponent.java:4969)
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:854)
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:814)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:814)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:789)
+	at javax.swing.RepaintManager.prePaintDirtyRegions(RepaintManager.java:738)
+	at javax.swing.RepaintManager.access$1200(RepaintManager.java:64)
+	at javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1732)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:109)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:184)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:229)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:227)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:227)
+	at java.awt.Dialog.show(Dialog.java:1084)
+	at javax.swing.JOptionPane.showOptionDialog(JOptionPane.java:869)
+	at javax.swing.JOptionPane.showMessageDialog(JOptionPane.java:666)
+	at javax.swing.JOptionPane.showMessageDialog(JOptionPane.java:637)
+	at workbench.gui.WbSwingUtilities.lambda$showErrorMessage$2(WbSwingUtilities.java:551)
+	at workbench.gui.WbSwingUtilities.invoke(WbSwingUtilities.java:211)
+	at workbench.gui.WbSwingUtilities.showErrorMessage(WbSwingUtilities.java:549)
+	at workbench.gui.WbSwingUtilities.showErrorMessage(WbSwingUtilities.java:499)
+	at workbench.util.BrowserLauncher.openURL(BrowserLauncher.java:155)
+	at workbench.util.BrowserLauncher.openURL(BrowserLauncher.java:102)
+	at workbench.util.UpdateCheck.actionPerformed(UpdateCheck.java:183)
+	at workbench.gui.profiles.ProfileSelectionDialog$1.mouseClicked(ProfileSelectionDialog.java:189)
+	at java.awt.Component.processMouseEvent(Component.java:6536)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6298)
+	at java.awt.Container.processEvent(Container.java:2236)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2294)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4534)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)
+	at java.awt.Container.dispatchEventImpl(Container.java:2280)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:109)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:184)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:229)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:227)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:227)
+	at java.awt.Dialog.show(Dialog.java:1084)
+	at java.awt.Component.show(Component.java:1671)
+	at java.awt.Component.setVisible(Component.java:1623)
+	at java.awt.Window.setVisible(Window.java:1014)
+	at java.awt.Dialog.setVisible(Dialog.java:1005)
+	at workbench.gui.components.ConnectionSelector._selectConnection(ConnectionSelector.java:95)
+	at workbench.gui.WbSwingUtilities.invoke(WbSwingUtilities.java:211)
+	at workbench.gui.components.ConnectionSelector.selectConnection(ConnectionSelector.java:82)
+	at workbench.gui.MainWindow.selectConnection(MainWindow.java:2480)
+	at workbench.WbManager.lambda$openNewWindow$5(WbManager.java:719)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+
+2018-07-31 23:26:27 ERROR Thread 'AWT-EventQueue-0' caused an exception! sun.awt.image.BufImgSurfaceData cannot be cast to sun.java2d.xr.XRSurfaceData
+java.lang.ClassCastException: sun.awt.image.BufImgSurfaceData cannot be cast to sun.java2d.xr.XRSurfaceData
+	at sun.java2d.xr.XRPMBlitLoops.cacheToTmpSurface(XRPMBlitLoops.java:148)
+	at sun.java2d.xr.XrSwToPMBlit.Blit(XRPMBlitLoops.java:356)
+	at sun.java2d.SurfaceDataProxy.updateSurfaceData(SurfaceDataProxy.java:498)
+	at sun.java2d.SurfaceDataProxy.replaceData(SurfaceDataProxy.java:455)
+	at sun.java2d.SurfaceData.getSourceSurfaceData(SurfaceData.java:233)
+	at sun.java2d.pipe.DrawImage.renderImageCopy(DrawImage.java:566)
+	at sun.java2d.pipe.DrawImage.copyImage(DrawImage.java:67)
+	at sun.java2d.pipe.DrawImage.copyImage(DrawImage.java:1014)
+	at sun.java2d.SunGraphics2D.drawImage(SunGraphics2D.java:3318)
+	at sun.awt.image.ImageRepresentation.drawToBufImage(ImageRepresentation.java:813)
+	at sun.java2d.pipe.DrawImage.copyImage(DrawImage.java:1021)
+	at sun.java2d.SunGraphics2D.drawImage(SunGraphics2D.java:3318)
+	at sun.java2d.SunGraphics2D.drawImage(SunGraphics2D.java:3296)
+	at javax.swing.ImageIcon.paintIcon(ImageIcon.java:425)
+	at javax.swing.plaf.basic.BasicButtonUI.paintIcon(BasicButtonUI.java:292)
+	at javax.swing.plaf.basic.BasicButtonUI.paint(BasicButtonUI.java:216)
+	at javax.swing.plaf.ComponentUI.update(ComponentUI.java:161)
+	at javax.swing.plaf.metal.MetalButtonUI.update(MetalButtonUI.java:150)
+	at javax.swing.JComponent.paintComponent(JComponent.java:780)
+	at javax.swing.JComponent.paint(JComponent.java:1056)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JSplitPane.paintChildren(JSplitPane.java:1047)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JLayeredPane.paint(JLayeredPane.java:586)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintToOffscreen(JComponent.java:5210)
+	at javax.swing.BufferStrategyPaintManager.paint(BufferStrategyPaintManager.java:290)
+	at javax.swing.RepaintManager.paint(RepaintManager.java:1272)
+	at javax.swing.JComponent._paintImmediately(JComponent.java:5158)
+	at javax.swing.JComponent.paintImmediately(JComponent.java:4969)
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:854)
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:814)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:814)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:789)
+	at javax.swing.RepaintManager.prePaintDirtyRegions(RepaintManager.java:738)
+	at javax.swing.RepaintManager.access$1200(RepaintManager.java:64)
+	at javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1732)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:109)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:184)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:229)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:227)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:227)
+	at java.awt.Dialog.show(Dialog.java:1084)
+	at javax.swing.JOptionPane.showOptionDialog(JOptionPane.java:869)
+	at javax.swing.JOptionPane.showMessageDialog(JOptionPane.java:666)
+	at javax.swing.JOptionPane.showMessageDialog(JOptionPane.java:637)
+	at workbench.gui.WbSwingUtilities.lambda$showErrorMessage$2(WbSwingUtilities.java:551)
+	at workbench.gui.WbSwingUtilities.invoke(WbSwingUtilities.java:211)
+	at workbench.gui.WbSwingUtilities.showErrorMessage(WbSwingUtilities.java:549)
+	at workbench.gui.WbSwingUtilities.showErrorMessage(WbSwingUtilities.java:499)
+	at workbench.util.BrowserLauncher.openURL(BrowserLauncher.java:155)
+	at workbench.util.BrowserLauncher.openURL(BrowserLauncher.java:102)
+	at workbench.util.UpdateCheck.actionPerformed(UpdateCheck.java:183)
+	at workbench.gui.profiles.ProfileSelectionDialog$1.mouseClicked(ProfileSelectionDialog.java:189)
+	at java.awt.Component.processMouseEvent(Component.java:6536)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6298)
+	at java.awt.Container.processEvent(Container.java:2236)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2294)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4534)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)
+	at java.awt.Container.dispatchEventImpl(Container.java:2280)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:109)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:184)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:229)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:227)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:227)
+	at java.awt.Dialog.show(Dialog.java:1084)
+	at java.awt.Component.show(Component.java:1671)
+	at java.awt.Component.setVisible(Component.java:1623)
+	at java.awt.Window.setVisible(Window.java:1014)
+	at java.awt.Dialog.setVisible(Dialog.java:1005)
+	at workbench.gui.components.ConnectionSelector._selectConnection(ConnectionSelector.java:95)
+	at workbench.gui.WbSwingUtilities.invoke(WbSwingUtilities.java:211)
+	at workbench.gui.components.ConnectionSelector.selectConnection(ConnectionSelector.java:82)
+	at workbench.gui.MainWindow.selectConnection(MainWindow.java:2480)
+	at workbench.WbManager.lambda$openNewWindow$5(WbManager.java:719)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+
+2018-07-31 23:26:28 ERROR Thread 'AWT-EventQueue-0' caused an exception! sun.awt.image.BufImgSurfaceData cannot be cast to sun.java2d.xr.XRSurfaceData
+java.lang.ClassCastException: sun.awt.image.BufImgSurfaceData cannot be cast to sun.java2d.xr.XRSurfaceData
+	at sun.java2d.xr.XRPMBlitLoops.cacheToTmpSurface(XRPMBlitLoops.java:148)
+	at sun.java2d.xr.XrSwToPMBlit.Blit(XRPMBlitLoops.java:356)
+	at sun.java2d.SurfaceDataProxy.updateSurfaceData(SurfaceDataProxy.java:498)
+	at sun.java2d.SurfaceDataProxy.replaceData(SurfaceDataProxy.java:455)
+	at sun.java2d.SurfaceData.getSourceSurfaceData(SurfaceData.java:233)
+	at sun.java2d.pipe.DrawImage.renderImageCopy(DrawImage.java:566)
+	at sun.java2d.pipe.DrawImage.copyImage(DrawImage.java:67)
+	at sun.java2d.pipe.DrawImage.copyImage(DrawImage.java:1014)
+	at sun.java2d.SunGraphics2D.drawImage(SunGraphics2D.java:3318)
+	at sun.awt.image.ImageRepresentation.drawToBufImage(ImageRepresentation.java:813)
+	at sun.java2d.pipe.DrawImage.copyImage(DrawImage.java:1021)
+	at sun.java2d.SunGraphics2D.drawImage(SunGraphics2D.java:3318)
+	at sun.java2d.SunGraphics2D.drawImage(SunGraphics2D.java:3296)
+	at javax.swing.ImageIcon.paintIcon(ImageIcon.java:425)
+	at javax.swing.plaf.basic.BasicButtonUI.paintIcon(BasicButtonUI.java:292)
+	at javax.swing.plaf.basic.BasicButtonUI.paint(BasicButtonUI.java:216)
+	at javax.swing.plaf.ComponentUI.update(ComponentUI.java:161)
+	at javax.swing.plaf.metal.MetalButtonUI.update(MetalButtonUI.java:150)
+	at javax.swing.JComponent.paintComponent(JComponent.java:780)
+	at javax.swing.JComponent.paint(JComponent.java:1056)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JSplitPane.paintChildren(JSplitPane.java:1047)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JLayeredPane.paint(JLayeredPane.java:586)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintToOffscreen(JComponent.java:5210)
+	at javax.swing.BufferStrategyPaintManager.paint(BufferStrategyPaintManager.java:290)
+	at javax.swing.RepaintManager.paint(RepaintManager.java:1272)
+	at javax.swing.JComponent._paintImmediately(JComponent.java:5158)
+	at javax.swing.JComponent.paintImmediately(JComponent.java:4969)
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:854)
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:814)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:814)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:789)
+	at javax.swing.RepaintManager.prePaintDirtyRegions(RepaintManager.java:738)
+	at javax.swing.RepaintManager.access$1200(RepaintManager.java:64)
+	at javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1732)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:109)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:184)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:229)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:227)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:227)
+	at java.awt.Dialog.show(Dialog.java:1084)
+	at javax.swing.JOptionPane.showOptionDialog(JOptionPane.java:869)
+	at javax.swing.JOptionPane.showMessageDialog(JOptionPane.java:666)
+	at javax.swing.JOptionPane.showMessageDialog(JOptionPane.java:637)
+	at workbench.gui.WbSwingUtilities.lambda$showErrorMessage$2(WbSwingUtilities.java:551)
+	at workbench.gui.WbSwingUtilities.invoke(WbSwingUtilities.java:211)
+	at workbench.gui.WbSwingUtilities.showErrorMessage(WbSwingUtilities.java:549)
+	at workbench.gui.WbSwingUtilities.showErrorMessage(WbSwingUtilities.java:499)
+	at workbench.util.BrowserLauncher.openURL(BrowserLauncher.java:155)
+	at workbench.util.BrowserLauncher.openURL(BrowserLauncher.java:102)
+	at workbench.util.UpdateCheck.actionPerformed(UpdateCheck.java:183)
+	at workbench.gui.profiles.ProfileSelectionDialog$1.mouseClicked(ProfileSelectionDialog.java:189)
+	at java.awt.Component.processMouseEvent(Component.java:6536)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6298)
+	at java.awt.Container.processEvent(Container.java:2236)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2294)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4534)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)
+	at java.awt.Container.dispatchEventImpl(Container.java:2280)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:109)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:184)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:229)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:227)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:227)
+	at java.awt.Dialog.show(Dialog.java:1084)
+	at java.awt.Component.show(Component.java:1671)
+	at java.awt.Component.setVisible(Component.java:1623)
+	at java.awt.Window.setVisible(Window.java:1014)
+	at java.awt.Dialog.setVisible(Dialog.java:1005)
+	at workbench.gui.components.ConnectionSelector._selectConnection(ConnectionSelector.java:95)
+	at workbench.gui.WbSwingUtilities.invoke(WbSwingUtilities.java:211)
+	at workbench.gui.components.ConnectionSelector.selectConnection(ConnectionSelector.java:82)
+	at workbench.gui.MainWindow.selectConnection(MainWindow.java:2480)
+	at workbench.WbManager.lambda$openNewWindow$5(WbManager.java:719)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+
+2018-07-31 23:31:51 WARN  SQL Workbench/J process has been interrupted. 
+2018-07-31 23:31:51 WARN  Aborting process... 
+2018-07-31 23:31:51 INFO  =================== Log stopped =================== 
+2018-07-31 23:32:07 INFO  =================== Log started =================== 
+2018-07-31 23:32:07 INFO  Using configdir: /home/yyang/.sqlworkbench 
+2018-07-31 23:32:07 INFO  Setting default locale to: en 
+2018-07-31 23:32:07 INFO  Starting SQL Workbench/J, Build 123 (2017-09-25 22:26) 
+2018-07-31 23:32:07 INFO  Java version=1.8.0_121, java.home=/gnshealthcare/software/jdk/jdk1.8.0_121/jre, vendor=Oracle Corporation, name=Java HotSpot(TM) 64-Bit Server VM 
+2018-07-31 23:32:07 INFO  Operating System=Linux, version=4.4.0-1057-aws, platform=amd64 
+2018-07-31 23:32:07 INFO  Available memory: 27305MB 
+2018-07-31 23:32:19 INFO  Using sizes: toolbar: 16, menu: 16 
+2018-07-31 23:39:53 WARN  SQL Workbench/J process has been interrupted. 
+2018-07-31 23:39:53 WARN  Aborting process... 
+2018-07-31 23:39:53 INFO  =================== Log stopped =================== 
+2018-07-31 23:45:41 INFO  =================== Log started =================== 
+2018-07-31 23:45:41 INFO  Using configdir: /home/yyang/.sqlworkbench 
+2018-07-31 23:45:41 INFO  Setting default locale to: en 
+2018-07-31 23:45:41 INFO  Starting SQL Workbench/J, Build 123 (2017-09-25 22:26) 
+2018-07-31 23:45:41 INFO  Java version=1.8.0_121, java.home=/gnshealthcare/software/jdk/jdk1.8.0_121/jre, vendor=Oracle Corporation, name=Java HotSpot(TM) 64-Bit Server VM 
+2018-07-31 23:45:41 INFO  Operating System=Linux, version=4.4.0-1057-aws, platform=amd64 
+2018-07-31 23:45:41 INFO  Available memory: 27305MB 
+2018-07-31 23:45:41 INFO  Installed signal handler for INT 
+2018-07-31 23:45:41 INFO  could not register signal handler for: QUIT Signal already used by VM or OS: SIGQUIT
+java.lang.IllegalArgumentException: Signal already used by VM or OS: SIGQUIT
+	at sun.misc.Signal.handle(Signal.java:166)
+	at workbench.console.SQLConsole.installSignalHandler(SQLConsole.java:752)
+	at workbench.console.SQLConsole.<init>(SQLConsole.java:110)
+	at workbench.console.SQLConsole.runConsole(SQLConsole.java:649)
+	at workbench.console.SQLConsole.main(SQLConsole.java:643)
+
+2018-07-31 23:45:41 INFO  SQL Workbench/J Console interface started 
+2018-07-31 23:45:41 INFO  Loaded statement history from /home/yyang/.sqlworkbench/sqlworkbench_history.txt 
+2018-07-31 23:45:50 INFO  Saved statement history to /home/yyang/.sqlworkbench/sqlworkbench_history.txt 
+2018-07-31 23:45:50 INFO  Stopping SQL Workbench/J, Build 123 
+2018-07-31 23:45:50 INFO  =================== Log stopped =================== 
+2018-07-31 23:46:01 INFO  =================== Log started =================== 
+2018-07-31 23:46:01 INFO  Using configdir: /home/yyang/.sqlworkbench 
+2018-07-31 23:46:01 INFO  Setting default locale to: en 
+2018-07-31 23:46:01 INFO  Starting SQL Workbench/J, Build 123 (2017-09-25 22:26) 
+2018-07-31 23:46:01 INFO  Java version=1.8.0_121, java.home=/gnshealthcare/software/jdk/jdk1.8.0_121/jre, vendor=Oracle Corporation, name=Java HotSpot(TM) 64-Bit Server VM 
+2018-07-31 23:46:01 INFO  Operating System=Linux, version=4.4.0-1057-aws, platform=amd64 
+2018-07-31 23:46:01 INFO  Available memory: 27305MB 
+2018-07-31 23:46:10 WARN  SQL Workbench/J process has been interrupted. 
+2018-07-31 23:46:10 WARN  Aborting process... 
+2018-07-31 23:46:10 INFO  =================== Log stopped =================== 
+2018-07-31 23:47:25 INFO  =================== Log started =================== 
+2018-07-31 23:47:25 INFO  Using configdir: /home/yyang/.sqlworkbench 
+2018-07-31 23:47:26 INFO  Setting default locale to: en 
+2018-07-31 23:47:26 INFO  Starting SQL Workbench/J, Build 123 (2017-09-25 22:26) 
+2018-07-31 23:47:26 INFO  Java version=1.8.0_121, java.home=/gnshealthcare/software/jdk/jdk1.8.0_121/jre, vendor=Oracle Corporation, name=Java HotSpot(TM) 64-Bit Server VM 
+2018-07-31 23:47:26 INFO  Operating System=Linux, version=4.4.0-1057-aws, platform=amd64 
+2018-07-31 23:47:26 INFO  Available memory: 27305MB 
+2018-07-31 23:47:37 INFO  Using sizes: toolbar: 16, menu: 16 
+2018-07-31 23:54:06 WARN  SQL Workbench/J process has been interrupted. 
+2018-07-31 23:54:06 WARN  Aborting process... 
+2018-07-31 23:54:06 INFO  =================== Log stopped =================== 
+2018-08-15 03:58:55 INFO  =================== Log started =================== 
+2018-08-15 03:58:55 INFO  Using configdir: /home/yyang/.sqlworkbench 
+2018-08-15 03:58:55 INFO  Setting default locale to: en 
+2018-08-15 03:58:55 INFO  Starting SQL Workbench/J, Build 123 (2017-09-25 22:26) 
+2018-08-15 03:58:55 INFO  Java version=1.8.0_121, java.home=/gnshealthcare/software/jdk/jdk1.8.0_121/jre, vendor=Oracle Corporation, name=Java HotSpot(TM) 64-Bit Server VM 
+2018-08-15 03:58:55 INFO  Operating System=Linux, version=4.4.0-1057-aws, platform=amd64 
+2018-08-15 03:58:55 INFO  Available memory: 27305MB 
+2018-08-15 03:59:12 INFO  Using sizes: toolbar: 16, menu: 16 
+2018-08-15 04:20:56 INFO  Created /home/yyang/.sqlworkbench/WbDrivers.xml.1 as a backup of: /home/yyang/.sqlworkbench/WbDrivers.xml 
+2018-08-15 04:26:42 WARN  SQL Workbench/J process has been interrupted. 
+2018-08-15 04:26:43 WARN  Aborting process... 
+2018-08-15 04:26:43 INFO  =================== Log stopped =================== 
+2018-08-15 04:28:09 INFO  =================== Log started =================== 
+2018-08-15 04:28:09 INFO  Using configdir: /home/yyang/.sqlworkbench 
+2018-08-15 04:28:09 INFO  Setting default locale to: en 
+2018-08-15 04:28:09 INFO  Starting SQL Workbench/J, Build 123 (2017-09-25 22:26) 
+2018-08-15 04:28:09 INFO  Java version=1.8.0_121, java.home=/gnshealthcare/software/jdk/jdk1.8.0_121/jre, vendor=Oracle Corporation, name=Java HotSpot(TM) 64-Bit Server VM 
+2018-08-15 04:28:09 INFO  Operating System=Linux, version=4.4.0-1057-aws, platform=amd64 
+2018-08-15 04:28:09 INFO  Available memory: 27305MB 
+2018-08-15 04:28:20 INFO  Using sizes: toolbar: 16, menu: 16 
+2018-08-15 04:37:02 INFO  Created /home/yyang/.sqlworkbench/WbDrivers.xml.2 as a backup of: /home/yyang/.sqlworkbench/WbDrivers.xml 
+2018-08-15 04:41:45 INFO  Created /home/yyang/.sqlworkbench/WbProfiles.xml.1 as a backup of: /home/yyang/.sqlworkbench/WbProfiles.xml 
+2018-08-15 04:43:11 INFO  Created /home/yyang/.sqlworkbench/WbProfiles.xml.2 as a backup of: /home/yyang/.sqlworkbench/WbProfiles.xml 
+2018-08-15 04:43:14 INFO  Created /home/yyang/.sqlworkbench/WbProfiles.xml.3 as a backup of: /home/yyang/.sqlworkbench/WbProfiles.xml 
+2018-08-15 04:43:16 INFO  Created /home/yyang/.sqlworkbench/WbProfiles.xml.4 as a backup of: /home/yyang/.sqlworkbench/WbProfiles.xml 
+2018-08-15 04:45:01 INFO  Creating new connection for [{Default group}/cigna_25] for driver=com.amazon.redshift.jdbc.Driver and URL=[jdbc:redshift://cigna-redshift.cgqqgon9pujb.us-east-1.redshift.amazonaws.com:5439/gns200496v1] 
+2018-08-15 04:45:01 INFO  Adding ClassLoader URL=file:/home/yyang/.sqlworkbench/RedshiftJDBC42-1.2.1.1001.jar 
+2018-08-15 04:45:01 INFO  Adding /home/yyang/.sqlworkbench: to java.library.path 
+2018-08-15 04:45:01 ERROR Class not found when loading driver com.amazon.redshift.jdbc.Driver
+java.lang.ClassNotFoundException: com.amazon.redshift.jdbc.Driver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at workbench.db.DbDriver.loadDriverClass(DbDriver.java:382)
+	at workbench.db.DbDriver.connect(DbDriver.java:466)
+	at workbench.db.ConnectionMgr.connect(ConnectionMgr.java:255)
+	at workbench.db.ConnectionMgr.getConnection(ConnectionMgr.java:182)
+	at workbench.gui.components.ConnectionSelector.doConnect(ConnectionSelector.java:227)
+	at workbench.gui.components.ConnectionSelector$1.run(ConnectionSelector.java:131)
+
+2018-08-15 04:46:05 WARN  SQL Workbench/J process has been interrupted. 
+2018-08-15 04:46:05 WARN  Aborting process... 
+2018-08-15 04:46:05 INFO  =================== Log stopped =================== 
